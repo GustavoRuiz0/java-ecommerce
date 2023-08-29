@@ -73,3 +73,4 @@ Connect with the project author on [LinkedIn](https://www.linkedin.com/in/gustav
 ---
 
 **License:** This project is licensed under the terms of the [GNU General Public License (GPL)](LICENSE).
+# java-ecommerce
