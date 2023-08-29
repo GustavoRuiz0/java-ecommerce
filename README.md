@@ -1,4 +1,4 @@
-# Spring Boot 3, Spring Security 6, and JWT Token Authentication
+# Ecommerce Spring Boot 3, Spring Security 6, and JWT Token Authentication
 
 ![Java](https://img.shields.io/badge/Java-8%2B-orange) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3-blue) ![Spring Security](https://img.shields.io/badge/Spring%20Security-6-green) [![LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-blue)](https://www.linkedin.com/in/gustavo-ruiz-810a851b5/)
 ![GPL License](https://img.shields.io/badge/License-GPL-blue)
@@ -19,7 +19,7 @@ Welcome to the **Spring Boot 3, Spring Security 6, and JWT Token Authentication*
 
 ## Introduction
 
-The **Spring Boot 3, Spring Security 6, and JWT Token Authentication** project provides a practical example of user authentication and authorization using Spring Boot and JWT. It showcases how to implement a secure authentication system with role-based access control.
+The **Ecommerce Spring Boot 3, Spring Security 6, and JWT Token Authentication** project provides a practical example of user authentication and authorization using Spring Boot and JWT. It showcases how to implement a secure authentication system with role-based access control.
 
 ## Features
 
@@ -27,6 +27,7 @@ The **Spring Boot 3, Spring Security 6, and JWT Token Authentication** project p
 - Role-based authorization for controlling user access to different parts of the application.
 - Secure password hashing and salting using industry best practices.
 - Integration with PostgreSQL database for storing user information.
+-Create and management products
 
 ## Technologies Used
 
@@ -54,12 +55,15 @@ Follow these steps to set up and run the project on your local machine:
 
 1. Register a new user using the `POST /auth/register` endpoint.
 2. Obtain a JWT by logging in using the `POST /auth/login` endpoint.
+- `POST /products/create`: Create Product (recive multipartfile).
+
 3. Include the JWT in the headers of protected endpoints for authorized access.
 
 ## Endpoints
 
 - `POST /auth/register`: Register a new user.
 - `POST /auth/login`: Obtain a JWT by logging in.
+- `POST /products/create`: Create Product (recive multipartfile).
 - More endpoints for specific resources can be added as per your application's requirements.
 
 ## Contributing
